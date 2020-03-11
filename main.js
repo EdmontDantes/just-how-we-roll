@@ -140,7 +140,7 @@ const theOneToResetEmAllFunc = function() {
   d12QueryForMediam.innerText = '';
   d20QueryForMean.innerText = '';
   d20QueryForMediam.innerText = '';
-  sixes.splice(0);
+  sixes.splice(0);//can use while(sixes.length >0) { sixes.pop()} or sixes.length = 0;
   doubleSixes.splice(0);
   twelves.splice(0);
   twenties.splice(0);
